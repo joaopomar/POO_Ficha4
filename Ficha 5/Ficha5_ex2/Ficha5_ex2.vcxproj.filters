@@ -15,26 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\ficha5.md" />
-    <None Include="materia_ficha5.md" />
-    <None Include="..\..\..\..\Downloads\07_ExemploCompleto_MyString.md" />
-    <None Include="..\..\..\..\Downloads\06_SementicaMove_nao_estudei.md" />
-    <None Include="..\..\..\..\Downloads\05_IdiomaSwap.md" />
-    <None Include="..\..\..\..\Downloads\04_RegraDos3_OperadorAtribuicao.md" />
-    <None Include="..\..\..\..\Downloads\03_RegraDos3_ConstrutorCopia.md" />
-    <None Include="..\..\..\..\Downloads\02_RegraDos3_Destrutor.md" />
-    <None Include="..\..\..\..\Downloads\01_MemoriaDinamica_Introducao.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="MyString.h">
+    <ClInclude Include="armarioFichas.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MyString.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="armarioFichas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

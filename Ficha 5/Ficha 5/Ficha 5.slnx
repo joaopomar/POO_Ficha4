@@ -3,5 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Folder Name="/Solution Items/" />
+  <Project Path="../Ficha5_ex2/Ficha5_ex2.vcxproj" Id="a2500ccf-48d1-4d37-9d76-99f0be8ba16e" />
   <Project Path="Ficha 5.vcxproj" Id="8dd1599f-bd92-45dd-9244-74aa07088005" />
 </Solution>
