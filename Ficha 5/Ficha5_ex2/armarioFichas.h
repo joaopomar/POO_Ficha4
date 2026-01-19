@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include <string>
 using namespace std;
 
@@ -19,10 +19,8 @@ private:
         string obtemDesc() const;
     };
 
-
     int nrClientes;
     Cliente** clientes;
-
 
 public:
     class InfoCliente {
@@ -34,13 +32,18 @@ public:
         int obtemNumConsultas() const;
     };
 
-
-    armarioFichas(); //contrutor
-    ~armarioFichas(); //destrutor
+    armarioFichas();
+    ~armarioFichas();
     armarioFichas(const armarioFichas& outro);
+    armarioFichas& operator=(const armarioFichas& outro);
 
+    bool adicionaCliente(string nome, int nif);
+    bool apagaCliente(int nif);
+    bool registaConsulta(int nif);
+    InfoCliente obtemInfoCliente(int nif) const;
+    void copiaConteudoDe(const armarioFichas& outro);
+    bool operator==(const armarioFichas& outro) const;
+    void esvazia();
+    string obtemListagem() const;
 
-    }
-    
-};
-
+};  // ← SÓ ESTA CHAVE! Remove a outra!
